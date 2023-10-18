@@ -5,6 +5,7 @@ import Brands from "./Brands";
 
 
 
+
 const Home = () => {
     const brands=useLoaderData();
 console.log(brands)
@@ -22,7 +23,7 @@ console.log(brands)
 
    
 </div>
-       
+     
             <Footer></Footer>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+
 import './index.css'
 import {
   createBrowserRouter,
@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Errorpage from './Component/Pages/Errorpage.jsx';
 import Home from './Component/Pages/Home/Home.jsx';
+import AddProduct from './Component/Product/AddProduct.jsx';
 
 const router = createBrowserRouter([
   {
@@ -16,12 +17,13 @@ const router = createBrowserRouter([
     loader:()=>fetch('/public.json'),
     errorElement: <Errorpage></Errorpage>,
   
-  Children:[
+  },
     {
-      
+      path: "/product",
+      element:<AddProduct></AddProduct>,
     },
-  ]
-},
+  
+
 ]);
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
