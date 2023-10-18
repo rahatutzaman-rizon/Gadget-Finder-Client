@@ -1,0 +1,39 @@
+ [
+      {
+        "id": 1,
+        "name": "Samsung",
+        "image": "https://i.ibb.co/f98zxfT/jonathan-kemper-po-Sms2-Ezf-NY-unsplash.jpg",
+        "description": "Samsung is a global leader in technology and electronics, offering a wide range of products including smartphones, televisions, home appliances, and more. Our focus is on innovation, quality, and user-friendly design to enhance everyday experiences."
+      },
+      {
+        "id": 2,
+        "name": "Apple",
+        "image": "https://i.ibb.co/xMdwxqD/apple.jpg",
+        "description": "Apple Inc. is a renowned technology company known for its iconic products like iPhone, MacBook, iPad, and more. Our commitment to innovation and elegant design has made us a household name in the tech industry."
+      },
+      {
+        "id": 3,
+        "name": "Xiaomi",
+        "image": "https://i.ibb.co/TKTTsYc/xiaomi.jpg",
+        "description": "Xiaomi Corporation is a leading global technology company that designs and manufactures smartphones, smart home devices, and other consumer electronics. We are dedicated to providing affordable and high-quality products to our customers."
+      },
+      {
+        "id": 4,
+        "name": "Sony",
+        "image": "https://i.ibb.co/TgnfvDy/sony.jpg",
+        "description": "Sony Corporation is a multinational conglomerate known for its wide range of electronics, gaming, entertainment, and financial services. We strive to deliver innovative and cutting-edge products that enrich people's lives."
+      },
+      {
+        "id": 5,
+        "name": "Vivo",
+        "image": "https://i.ibb.co/VT98HyT/vivo.png",
+        "description": "Vivo is a prominent smartphone manufacturer with a strong focus on providing exceptional camera and audio experiences. We aim to deliver stylish and feature-rich devices that resonate with the younger generation."
+      },
+      {
+        "id": 6,
+        "name": "HP",
+        "image": "https://i.ibb.co/TKTTsYc/xiaomi.jpg",
+        "description": "HP (Hewlett-Packard) is a leading technology company known for its wide range of computer hardware, software, and related services. We are dedicated to creating reliable and innovative solutions to meet the evolving needs of businesses and consumers."
+      }
+    ]
+ 
