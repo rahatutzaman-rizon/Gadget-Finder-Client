@@ -73,7 +73,15 @@ const AddProduct = () => {
                             <span className="label-text">Brand Name</span>
                         </label>
                         <label className="input-group">
-                            <input type="text" name="brand" placeholder="Brand  Name" className="input input-bordered w-full" />
+                        <select name="brand" >
+
+                            <option value="hp">Hp</option>
+                            <option value="xiaomi">xiaomi</option>
+                            <option value="samsung">Samsung</option>
+                            <option value="apple">Apple</option>
+                            <option value="vivo">Vivo</option> <option value="sony">Sony</option>
+                        </select>
+                            {/* <input type="text" name="brand" placeholder="Brand  Name" className="input input-bordered w-full" /> */}
                         </label>
                     </div>
                     <div className="form-control md:w-1/2 ml-4">
