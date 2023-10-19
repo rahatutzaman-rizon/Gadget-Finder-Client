@@ -1,21 +1,24 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams} from "react-router-dom";
+import SpecificCard from "./SpecificCard";
 
 
 const Specific = () => {
+    const specificbrand=useLoaderData();
+    const {id}=useParams();
     const [brands,setBrands]=useState();
 
-     const {}=brands
-     const {id}=useParams();
-    const specificbrand=useLoaderData();
+     
+     
+   
   
     useEffect(()=>{
         const findBrand = specificbrand?.filter(data => data.brand.toLowerCase() == id)
          setBrands(findBrand);
-     },[id,specificbrand])
-     console.log(brands,id,specificbrand)
+     },[id,specificbrand,brands]);
+     console.log(brands);
 
-    
+    //  const {rating,category,description,photo,price}=brands;
 
     // useEffect(()=>{
     // fetch('http://localhost:5000/product')
@@ -30,9 +33,12 @@ const Specific = () => {
     // setProducts(filterProduct);
     // console.log(filterProduct)
     return (
-        <div>
-            {/* <h2>show all products {products}</h2> */}
-        </div>
+     <div>
+ {
+    brands.map((item,idx)=><SpecificCard key={idx} item={item}></SpecificCard>)
+ }
+     </div> 
+
     );
 };
 
