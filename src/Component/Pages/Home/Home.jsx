@@ -2,6 +2,7 @@ import { Outlet, useLoaderData } from "react-router-dom";
 import Footer from "../Header/Footer";
 import Header from "../Header/Header";
 import Brands from "./Brands";
+import Question from "../../Section/Question";
 
 
 
@@ -23,7 +24,7 @@ console.log(brands)
 
    
 </div>
-     
+     <Question></Question>
             <Footer></Footer>
         </div>
     );
