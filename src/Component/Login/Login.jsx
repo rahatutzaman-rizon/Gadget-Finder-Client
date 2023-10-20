@@ -74,8 +74,8 @@ const handlegoogle=()=>{
         </div>
       </form>
 
-      <p className="text-center my-2">Dont have a accobrt <Link to="/regester"><span className=" link link-hover text-blue-500">regester</span></Link></p>
-      <button onClick={handlegoogle}  className="my-2 bg-blue-600 ml-96 text-center text-white font-bold py-2 px-4 rounded">Google Login</button>
+      <p className="text-center my-2">Dont have a account? <Link to="/regester"><span className=" link link-hover text-blue-500">regester</span></Link></p>
+      <button onClick={handlegoogle}  className="my-2 bg-blue-400 ml-96 text-center text-white font-bold py-2 px-4 rounded">Google Login</button>
 </div>
         
     );

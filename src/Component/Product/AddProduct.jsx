@@ -20,7 +20,7 @@ const AddProduct = () => {
         console.log(newCoffee);
 
         // send data to the server
-        fetch('http://localhost:5000/product', {
+        fetch('https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/product', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'
@@ -44,7 +44,8 @@ const AddProduct = () => {
 
     return (
         
-        <div className="bg-[#F4F3F0] p-24">
+        <div className="bg-orange-200 p-24 py-2">
+        
             <h2 className="text-3xl font-extrabold">Add Product</h2>
             <form onSubmit={handleAddProduct}>
                 {/* form name and quantity row */}

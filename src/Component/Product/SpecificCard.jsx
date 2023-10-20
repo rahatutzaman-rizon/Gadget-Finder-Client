@@ -36,7 +36,7 @@ const SpecificCard = ({item}) => {
       <Link to={`/updateproduct/${_id}`}>Update</Link>
       
       </button>
-      <button className="btn btn-outline btn-primary">Add Cart</button>
+      
     </div>
     </div>
   </div>

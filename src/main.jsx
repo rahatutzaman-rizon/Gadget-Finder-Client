@@ -34,7 +34,7 @@ const router = createBrowserRouter([
     {
       path: "/mycart",
       element:<Privateroute><Mycart></Mycart></Privateroute>,
-      loader:()=>fetch("http://localhost:5000/cart")
+      loader:()=>fetch("https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/cart")
     },
     {
       path: "/question",
@@ -42,13 +42,13 @@ const router = createBrowserRouter([
     },
     {
       path: "/moredetail/:id",
-      element:<Moredetails></Moredetails>,
-      loader:({params})=> fetch(`http://localhost:5000/product/${params.id}`)  
+      element:<Privateroute><Moredetails></Moredetails></Privateroute>,
+      loader:({params})=> fetch(`https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/product/${params.id}`)  
     },
     {
       path: "/updateproduct/:id",
       element:<Updateproduct></Updateproduct>,
-      loader:({params})=> fetch(`http://localhost:5000/product/${params.id}`)  
+      loader:({params})=> fetch(`https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/product/${params.id}`)  
     },
     {
       path: "/regester",
@@ -60,8 +60,8 @@ const router = createBrowserRouter([
     },
     {
       path: "/specific/:id",
-      element:<Specific></Specific>,
-      loader:()=>fetch('http://localhost:5000/product'),
+      element:<Privateroute><Specific></Specific></Privateroute>,
+      loader:()=>fetch('https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/product'),
     },
   
 

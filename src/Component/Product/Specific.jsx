@@ -25,7 +25,7 @@ const Specific = () => {
     //  const {rating,category,description,photo,price}=brands;
 
     // useEffect(()=>{
-    // fetch('http://localhost:5000/product')
+    // fetch('https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/product')
     // .then(res=>res.json())
     // .then(data=>setProducts(data))
     // },[])

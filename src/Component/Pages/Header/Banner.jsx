@@ -5,10 +5,11 @@ const Banner = () => {
          
     <div className="search md:py-[120px] py-[60px]">
       <div className="text-center">
-        <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-[#0B0B0B] md:mb-[40px] mb-[20px]">
-           Event management connect to the world
+        <h1 className="lg:text-5xl md:text-5xl text-xl font-bold text-red-300 md:mb-[40px] mb-[20px]">
+          Choose your best product
         </h1>
-        <p className='text-xl font-bold text center my-6 text-pink-400'>Choose ur best option with get 20% off</p>
+        <p className='text-xl font-bold text center my-6 text-pink-200'>
+         get 20% off using promocode </p>
 
        
       </div>

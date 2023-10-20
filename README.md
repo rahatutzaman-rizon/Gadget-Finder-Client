@@ -1,6 +1,8 @@
 website name : Technovative-store 
  
-
+ ## client link: https://technovative-store-c3ad5.web.app/
+ ## server link: https://technovative-store-server-6avhjdwj7-redwan-525s-projects.vercel.app/
+ 
 features:
 ## 1.choose ur product category
 ## 2. login system use firebase

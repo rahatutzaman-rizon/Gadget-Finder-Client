@@ -18,7 +18,9 @@ const Footer = () => {
     </div>
   </nav> 
   <aside>
-    <p>Copyright © 2023 - All right reserved by tech clock team</p>
+    <p>Copyright © 2023 - All right reserved by technovative store 
+    </p>
+    <p>email: technolo23@gmail.com</p>
   </aside>
 </footer>
         </div>
