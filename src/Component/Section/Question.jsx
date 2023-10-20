@@ -24,6 +24,9 @@ const Question = () => {
     <br />
     <p>shop number:0123779233
     </p>
+    <p>
+      Owner name: redwan tamim
+    </p>
 
   </div>
 </div>
