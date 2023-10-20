@@ -1,21 +1,43 @@
+import { Link, useParams } from "react-router-dom";
 
 
 const SpecificCard = ({item}) => {
-    const {name}=item;
+  const {id}=useParams();
+  console.log(item)
+    const {_id,name,brand,rating,category,description,photo,price}=item;
     console.log(name)
     return (
+   
+
         <div>
+
+
+
+
             <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-  <div className="card-body">
+  <img src={photo} alt="" />
+ 
+  <div className="card-body ">
+   
+  <h2 className="text-2xl bg-pink-300 text-center">brand :{brand}</h2>
     <h2 className="card-title">
     {name}
-      <div className="badge badge-secondary">NEW</div>
+      <div className="badge badge-secondary">{category}</div>
     </h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
+    <p>{description}</p>
     <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div> 
-      <div className="badge badge-outline">Products</div>
+      <div className="badge badge-outline bg-green-500">{price}</div> 
+      <div className="badge badge-outline bg-red-300">rating : {rating}</div>
+    
+
+    <div className="flex">
+    <button className="btn btn-outline btn-success"> <Link to={`/moredetail/${_id}`}>More details </Link></button>
+      <button className="btn btn-outline btn-error">
+      <Link to={`/updateproduct/${_id}`}>Update</Link>
+      
+      </button>
+      <button className="btn btn-outline btn-primary">Add Cart</button>
+    </div>
     </div>
   </div>
 </div>
