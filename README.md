@@ -10,3 +10,10 @@ features:
 ## 4. contact number and shop location there
 ## 5 .database storage capacity
 ## 6.user can edit there data in database server
+
+
+## Tech Stack
+
+**Client:** React, DaisyUi, TailwindCSS,firebase
+
+**Server:** Node, Express
